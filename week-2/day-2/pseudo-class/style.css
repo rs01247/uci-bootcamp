@@ -1,0 +1,31 @@
+button {
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    color: #ccc;
+}
+
+button:hover {
+    background-color: red;
+    font-weight: bold;
+}
+
+button:active {
+    font-weight: bold;
+}
+
+#firstlink:hover {
+    color: pink;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+#secondlink:hover {
+    font-size: 50px;
+    color: orange;
+    font-weight: bold;
+}
+
+#secondlink:active {
+    text-decoration: none;
+}

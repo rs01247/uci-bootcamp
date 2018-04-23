@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+    }
+
+body {
+    text-align: left;
+    font-size: 20px;
+    line-height: 24px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    line-height: 45px;
+}
+
+p {
+    font-size: 24px;
+}
+
+#fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #eee;
+    margin: 0;
+    height: 200px;
+    padding: 20px;
+    text-align: center;
+    width: 30%;
+}
+
+.container {
+    width: 600px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+#relative {
+    background: #eee;
+    position: relative;
+    height: 200px;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+#absolute {
+    position: absolute;
+    right: -30px;
+    bottom: 0;
+    width: 250px;
+    padding: 30px;
+    text-align: center;
+    background: #999;
+}
